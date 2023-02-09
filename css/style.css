@@ -190,7 +190,7 @@ a:hover {
 /* HERO */
 
 .hero {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/bg.jpg);
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -431,7 +431,7 @@ a:hover {
     margin: 0 auto;
     border-radius: 20px;
     height: 310px;
-    background: url(/images/man.jpg);
+    background: url(images/man.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -753,7 +753,7 @@ a:hover {
 .about__girl__img {
     width: 85%;
     height: 350px;
-    background-image: url(/images/girl.jpg);
+    background-image: url(images/girl.jpg);
     background-position: center;
     background-size: cover;
     margin-left: auto;
@@ -764,7 +764,7 @@ a:hover {
 .about__building__img {
     width: 80%;
     height: 240px;
-    background-image: url(/images/girl_behind.jpg);
+    background-image: url(images/girl_behind.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -930,7 +930,7 @@ a:hover {
     border-radius: 20px;
     width: 100%;
     height: 230px;
-    background-image: url(/images/teams.jpg);
+    background-image: url(images/teams.jpg);
     background-position: center;
     background-size: cover;
 }
