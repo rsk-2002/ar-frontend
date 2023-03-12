@@ -32,6 +32,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -83,10 +84,14 @@ a:hover {
     min-height: 4.375rem;
 }
 
-.header__logo>h4 {
+.header__logo>a {
     font-size: var(--fs-30);
     font-family: var(--font-merriweather);
     font-weight: bold;
+}
+
+.header__logo>a:hover, .header__logo>a:visited {
+    color: #1847B8;
 }
 
 .header__links {
@@ -190,7 +195,7 @@ a:hover {
 /* HERO */
 
 .hero {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/bg.jpg');
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -293,9 +298,6 @@ a:hover {
     background-color: var(--bg-body2);
 }
 
-.service__wrapper {
-    /* width: 80%; */
-}
 
 .service__heading {
     padding: 65px 0 0;
@@ -431,7 +433,7 @@ a:hover {
     margin: 0 auto;
     border-radius: 20px;
     height: 310px;
-    background: url(images/man.jpg);
+    background: url(../images/man.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -666,10 +668,6 @@ a:hover {
 
 /* ABOUT */
 
-.about {
-    /* background-color: var(--bg-body); */
-}
-
 .about__wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -753,7 +751,7 @@ a:hover {
 .about__girl__img {
     width: 85%;
     height: 350px;
-    background-image: url(images/girl.jpg);
+    background-image: url(../images/girl.jpg);
     background-position: center;
     background-size: cover;
     margin-left: auto;
@@ -764,7 +762,7 @@ a:hover {
 .about__building__img {
     width: 80%;
     height: 240px;
-    background-image: url(images/girl_behind.jpg);
+    background-image: url(../images/girl_behind.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -930,21 +928,11 @@ a:hover {
     border-radius: 20px;
     width: 100%;
     height: 230px;
-    background-image: url(images/teams.jpg);
+    background-image: url(../images/teams.jpg);
     background-position: center;
     background-size: cover;
 }
 
-/* .team__img__shadow {
-    position: absolute;
-    background-color: var(--accent);
-    width: 70%;
-    height: 150px;
-    top: 45%;
-    left: 30%;
-    border-radius: 20px;
-    z-index: -1;
-} */
 
 .team__card {
     border-radius: 20px;
@@ -1013,11 +1001,6 @@ a:hover {
     /* margin-block-start: 10rem; */
     padding-block: 5rem;
 }
-
-body {
-    /* background-color: var(--bg-body2); */
-}
-
 
 .bg__body2 {
     height: 15rem;
