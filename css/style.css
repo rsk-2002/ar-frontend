@@ -83,15 +83,19 @@ a:hover {
     align-items: center;
     min-height: 4.375rem;
 }
+.header__logo {
+    text-align: center;
+}
 
 .header__logo>a {
     font-size: var(--fs-30);
     font-family: var(--font-merriweather);
     font-weight: bold;
+    color: #111111;
 }
 
 .header__logo>a:hover, .header__logo>a:visited {
-    color: #1847B8;
+    color: #111111;
 }
 
 .header__links {
@@ -380,10 +384,6 @@ a:hover {
 
 /* WHY */
 
-.why {}
-
-.why__wrapper {}
-
 .why__card {
     margin-top: 4rem;
     background-color: var(--accent);
@@ -476,8 +476,6 @@ a:hover {
 
 /* MOBILE */
 
-.mobile {}
-
 .mobile__wrapper {
     position: relative;
     padding-bottom: 5rem;
@@ -496,8 +494,13 @@ a:hover {
     width: 100%;
     top: -16%;
     left: 5%;
-    /* transform: translateY(-85%); */
     margin-bottom: 5rem;
+}
+
+@media (min-width: 820px) {
+    .mobile__img {
+        width: 50%;
+    }
 }
 
 .mobile__heading {
@@ -583,7 +586,6 @@ a:hover {
     background-color: var(--bg-body);
 }
 
-.started__mobile__icon {}
 
 .started__mobile__icon i {
     background-color: var(--accent);
@@ -594,7 +596,6 @@ a:hover {
     margin-bottom: 4rem;
 }
 
-.started__text {}
 
 .started__heading {
     font-size: var(--fs-36);
@@ -869,7 +870,6 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-.feedback__img {}
 
 .feedback__img img {
     width: 54px;
@@ -998,7 +998,6 @@ a:hover {
 
 .contact {
     background-color: var(--accent);
-    /* margin-block-start: 10rem; */
     padding-block: 5rem;
 }
 
@@ -1007,8 +1006,6 @@ a:hover {
     width: 100%;
     background-color: var(--bg-body2);
 }
-
-.contact__wrapper {}
 
 .contact__details {
     display: flex;
@@ -1051,8 +1048,6 @@ a:hover {
     color: var(--text-white);
 }
 
-.contact__description {}
-
 .contact__title {
     font-size: var(--fs-36);
     font-weight: 400;
@@ -1088,8 +1083,6 @@ a:hover {
 .contact__social__icons>a>i {
     font-size: 2rem;
 }
-
-.contact__form {}
 
 .contact__form__control {
     display: flex;
